@@ -4,3 +4,8 @@
 
 * xrange is slow due to creation of underlying object (of which it is range of) each time it is asked to get the element but it is memory efficient.
     * https://www.geeksforgeeks.org/range-vs-xrange-python/
+
+* iterables which can be iterated upon and iterator are access through next function. generator is a iterator but not all iterators are generators. It has next function lets you not worry about size of the iterator in the beginning of the operation on it. You just have to call next to get next subsequent element and will throw exception if all elements are traversed.
+
+      * https://www.geeksforgeeks.org/python-difference-iterable-iterator/
+      * https://stackoverflow.com/a/9884259
