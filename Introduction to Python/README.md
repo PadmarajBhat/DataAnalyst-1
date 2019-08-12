@@ -9,3 +9,9 @@
 
       * https://www.geeksforgeeks.org/python-difference-iterable-iterator/
       * https://stackoverflow.com/a/9884259
+
+* to delete a column and to get the column values into a list 
+   ```
+   target = df.pop('target')
+   ```
+   Ideal case for label extraction from pandas in case of supervised learning.
