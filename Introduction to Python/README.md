@@ -15,3 +15,10 @@
    target = df.pop('target')
    ```
    Ideal case for label extraction from pandas in case of supervised learning.
+
+* A quick look on 2 numpy function I came across in a recent program.
+   ```
+   import numpy as np
+   np.array([1,2]).shape, np.expand_dims([1,2], axis=0).shape, np.vstack([np.expand_dims([1,2], axis=0)]).shape
+   Output: ((2,), (1, 2), (1, 2))
+   ```
