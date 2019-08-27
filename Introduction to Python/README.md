@@ -22,3 +22,4 @@
    np.array([1,2]).shape, np.expand_dims([1,2], axis=0).shape, np.vstack([np.expand_dims([1,2], axis=0)]).shape
    Output: ((2,), (1, 2), (1, 2))
    ```
+* pandas to xls file through xlswriter : https://xlsxwriter.readthedocs.io/example_pandas_chart_stock.html
