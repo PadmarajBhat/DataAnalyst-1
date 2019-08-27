@@ -27,3 +27,4 @@
 * datetime function in panda
    * df['time'] = pd.to_datetime(df.time)
    * df.time.dt.day --> lists only day, can be used in groupby
+   * df.time.dt.strftime('%d-%b') --> converts to DD-MMM format
