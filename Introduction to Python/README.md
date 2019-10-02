@@ -28,3 +28,5 @@
    * df['time'] = pd.to_datetime(df.time)
    * df.time.dt.day --> lists only day, can be used in groupby
    * df.time.dt.strftime('%d-%b') --> converts to DD-MMM format
+
+* https://www.instagram.com/p/B3Er0pqgJQD/?igshid=frsubx75m40l
