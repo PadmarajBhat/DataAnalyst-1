@@ -30,3 +30,4 @@
    * df.time.dt.strftime('%d-%b') --> converts to DD-MMM format
 
 * https://www.instagram.com/p/B3Er0pqgJQD/?igshid=frsubx75m40l
+* python tools: https://www.datasciencecentral.com/profiles/blogs/7-python-tools-all-data-scientists-should-know-how-to-use
