@@ -31,3 +31,12 @@
 
 * https://www.instagram.com/p/B3Er0pqgJQD/?igshid=frsubx75m40l
 * python tools: https://www.datasciencecentral.com/profiles/blogs/7-python-tools-all-data-scientists-should-know-how-to-use
+
+* python does dynamic type checking and hence static type checking is not default. However, the best code practice indicate that type hinting makes the code clearer. And moreover, IDE like PyCharm does enforce typechecking for a safer code.
+   ```
+   def myFunc(a : int) -> str
+      return a
+   ```
+      * here you might expect the return value is only string but python allows you to send integer back.
+      * also you may think that a can be only integer but it might have other too.
+      * this is what meant by not enforcing type checking. Hence, it is referred as type hinting and not type checking. 
