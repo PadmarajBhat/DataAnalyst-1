@@ -69,3 +69,50 @@
    []                                                                                                                                            
    -1  
    ```
+
+* what if you dont want to use lambda func ?
+   ```
+   def mapfunc(x):
+    return(x*2)
+    
+   def filterFunc(x):
+       return 0
+
+   def whoIsMax(ref, x):
+       if ref > x:
+           return ref
+       return x
+
+
+   a = [1,2,3,4,-1]
+
+   print(list(map(mapfunc, a)))
+
+
+   print(list(filter(mapfunc , a)))
+
+   print(list(filter(filterFunc, a)))
+
+   import functools as fn
+   print(fn.reduce(lambda x,y: x if x < y else y, a))
+
+   print( fn.reduce(whoIsMax,a))
+
+   print(fn.reduce(mapfunc,a))
+   ```
+   Output:
+   ```
+   [2, 4, 6, 8, -2]                                                                                                                                
+   [1, 2, 3, 4, -1]                                                                                                                                
+   []                                                                                                                                              
+   -1                                                                                                                                              
+   4                                                                                                                                               
+   Traceback (most recent call last):                                                                                                              
+     File "main.py", line 38, in <module>                                                                                                          
+       print(fn.reduce(mapfunc,a))                                                                                                                 
+   TypeError: mapfunc() takes 1 positional argument but 2 were given                                                                        ```
+   * This is because the definition of the the three indicates the first argument as function
+      ```
+      https://docs.python.org/3/library/functools.html
+      functools.reduce(function, iterable[, initializer])
+      ```
