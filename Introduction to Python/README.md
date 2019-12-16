@@ -42,3 +42,30 @@
       * this is what meant by not enforcing type checking. Hence, it is referred as type hinting and not type checking. 
       
 * ``` pip freeze > requirements.txt``` : it saves your life by helping you to capture the current version of the packages required for the current server(py program) run. Along with code this is the important piece of code should go to checkin. It is kind of saving image in a cloud. You can use this file for recreating the environment used for dev and replicate the same in prod. However, if you are building the one year old project then it might happen that those packages are lost/not supported and you might not be able to recreate the env. In this case an image has upper hand as it is ready to launch environment. In case of image also upper or lower stack for the image might have lost support like operating system might no longer support some api calls (lower stack) and ui might have enhanced to send additional header and requires backend change(upper stack)
+
+* Good example of map, filter and reduce
+   ```
+   def mapfunc(x):
+    return(x*2)
+
+   def filterFunc(x):
+       return 0
+   a = [1,2,3,4,-1]
+
+   print(list(map(lambda x : mapfunc(x), a)))
+
+
+   print(list(filter(lambda x: mapfunc(x) , a)))
+
+   print(list(filter(lambda x: filterFunc(x) , a)))
+
+   import functools as fn
+   print(fn.reduce(lambda x,y: x if x < y else y, a))
+   ```
+   Output:
+   ```
+   [2, 4, 6, 8, -2]                                                                                                                              
+   [1, 2, 3, 4, -1]                                                                                                                              
+   []                                                                                                                                            
+   -1  
+   ```
