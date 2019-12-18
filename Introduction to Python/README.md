@@ -34,6 +34,8 @@
 
 * python does dynamic type checking and hence static type checking is not default. However, the best code practice indicate that type hinting makes the code clearer. And moreover, IDE like PyCharm does enforce typechecking for a safer code.
    ```
+   
+* u'' is like raw'' for a string. It indicates that the strings character has to be saved as unicoded. The advantage of doing unicoded string is that it consumes less space. Note that u'hello' == "hello", https://stackoverflow.com/a/11279428 ( or even detailed explanation at https://docs.python.org/3/howto/unicode.html ) 
    def myFunc(a : int) -> str
       return a
    ```
