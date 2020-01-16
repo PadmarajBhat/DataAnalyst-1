@@ -118,3 +118,10 @@
       https://docs.python.org/3/library/functools.html
       functools.reduce(function, iterable[, initializer])
       ```
+      
+* Decorator and meta classes are called as meta programming
+   * beautiful line from a medium blog : https://medium.com/better-programming/meta-programming-in-python-7fb94c8c7152
+      * Meta programming is an act of writing a code to manupulate the code !!!!
+   * http://book.pythontips.com/en/latest/decorators.html gives the 2 use cases of meta programming
+      * authentication
+      * logging
