@@ -125,3 +125,10 @@
    * http://book.pythontips.com/en/latest/decorators.html gives the 2 use cases of meta programming
       * authentication
       * logging
+
+* Medium blog study : https://levelup.gitconnected.com/faster-lists-in-python-4c4287502f0a
+   * there are 3 ways lists can be created in python : preallocation, append and list comprehension
+      * list comprehension is the fastest > append > preallocation
+   * Searching in the set (ordered list) is the fastest way of search > ```in``` search > for loop search
+   * timsort is the fastest way to sort the list: list_a.sort() is the builtin available.
+   
