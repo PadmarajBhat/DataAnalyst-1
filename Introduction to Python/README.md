@@ -134,5 +134,13 @@
    
 
 * Medium blog study: https://towardsdatascience.com/ultimate-setup-for-your-next-python-project-179bda8a7c2c
-   * talks about the python code hierarchy study: best practice to include every aspect coding, building, CI/CD, test script and automation
-   
+   * talks about the python code hierarchy study: best practice to include every aspect coding, building, CI/CD, test script and automation.
+      * There are 7 files and 3 folders for this project template
+      * Folders:
+         * blueprint: app name instead of blueprint
+            * __init__.py : for indicating it is python package
+            * __main__.py: to be able to run python -m blueprint
+               * -m takes package as argument
+            * app.py: represents set of files in real application where business logic is distributed among modules.
+            * resources: this sub directory holds the static files likes png, key files, images etc
+      
