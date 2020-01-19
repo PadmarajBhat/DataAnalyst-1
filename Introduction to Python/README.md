@@ -147,4 +147,5 @@
          * .github: folder contains
             * build-test.yaml : building, testing, linting source code
             * push.yaml: to push the code to github registry
-            
+         * Makefile: automated scripts for clean building, testing, linting etc
+         * configure_project.sh : quick script which will rename dummy values in the project. name of the package or project etc
