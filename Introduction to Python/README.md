@@ -143,4 +143,8 @@
                * -m takes package as argument
             * app.py: represents set of files in real application where business logic is distributed among modules.
             * resources: this sub directory holds the static files likes png, key files, images etc
-      
+         * test: test suite related files
+         * .github: folder contains
+            * build-test.yaml : building, testing, linting source code
+            * push.yaml: to push the code to github registry
+            
