@@ -132,3 +132,7 @@
    * Searching in the set (ordered list) is the fastest way of search > ```in``` search > for loop search
    * timsort is the fastest way to sort the list: list_a.sort() is the builtin available.
    
+
+* Medium blog study: https://towardsdatascience.com/ultimate-setup-for-your-next-python-project-179bda8a7c2c
+   * talks about the python code hierarchy study: best practice to include every aspect coding, building, CI/CD, test script and automation
+   
