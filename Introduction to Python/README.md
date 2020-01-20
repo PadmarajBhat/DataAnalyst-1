@@ -149,3 +149,24 @@
             * push.yaml: to push the code to github registry
          * Makefile: automated scripts for clean building, testing, linting etc
          * configure_project.sh : quick script which will rename dummy values in the project. name of the package or project etc
+
+* Does Python have constants : https://medium.com/better-programming/does-python-have-constants-3b8249dc8b7b
+   * awesome comments : dataclass and Enum provide ways to make constants in python
+   * Dataclass:
+      ```
+      from dataclasses import dataclass
+      @dataclass(frozen=True)
+      class Consts:
+        RATIO_LB_TO_KG = 3.281
+        RATIO_FEET_TO_METERS = 2.205
+      myconsts = Consts()
+      myconsts.RATIO_FEET_TO_METERS = 1 # generates an error
+      ```
+   * Enum:
+   ```
+   from enum import Enum
+   class abcd(Enum):
+      a = 20
+      
+   abcd.a = 30 # generates error : raise AttributeError('Cannot reassign members.')
+   ```
