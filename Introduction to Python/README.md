@@ -170,3 +170,4 @@
       
    abcd.a = 30 # generates error : raise AttributeError('Cannot reassign members.')
    ```
+* RxPy: is similar to RxJS for js. You can create observables to send continuous stream of data.
