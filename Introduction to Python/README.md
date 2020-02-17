@@ -171,3 +171,4 @@
    abcd.a = 30 # generates error : raise AttributeError('Cannot reassign members.')
    ```
 * RxPy: is similar to RxJS for js. You can create observables to send continuous stream of data.
+* https://docs.djangoproject.com/en/3.0/ref/request-response/#django.http.StreamingHttpResponse: splits a request into smaller chunks but not streaming  
