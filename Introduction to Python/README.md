@@ -172,3 +172,6 @@
    ```
 * RxPy: is similar to RxJS for js. You can create observables to send continuous stream of data.
 * https://docs.djangoproject.com/en/3.0/ref/request-response/#django.http.StreamingHttpResponse: splits a request into smaller chunks but not streaming  
+
+* Bokey : https://docs.bokeh.org/en/latest/docs/user_guide/categorical.html?highlight=panda#pandas
+   * have the entire example as a function and pass df to it. Cant think of cyl_mg example not fitting any case !!!!!
