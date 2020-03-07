@@ -177,4 +177,7 @@
    * have the entire example as a function and pass df to it. Cant think of cyl_mg example not fitting any case !!!!!
 
 * panda : skew() is Normalized making it handly for any series
+   * skewness is said to be stable if the range is -.5 to .5
+   * skewness 0.5 to 1 (+-) then it is moderately distributed
+   * and within 0.5 is is symmetric 
 * number to string : "{:03d}".format(100)
