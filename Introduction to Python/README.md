@@ -176,4 +176,4 @@
 * Bokeh : https://docs.bokeh.org/en/latest/docs/user_guide/categorical.html?highlight=panda#pandas
    * have the entire example as a function and pass df to it. Cant think of cyl_mg example not fitting any case !!!!!
 
-* 
+* panda : skew() is Normalized making it handly for any series
