@@ -177,3 +177,4 @@
    * have the entire example as a function and pass df to it. Cant think of cyl_mg example not fitting any case !!!!!
 
 * panda : skew() is Normalized making it handly for any series
+* number to string : "{:03d}".format(100)
