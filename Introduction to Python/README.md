@@ -183,3 +183,5 @@
 * number to string : "{:03d}".format(100)
 
 * ternary operation : var = true_val if condition else false_val
+* boxplot in matplotlib : https://pythonprogramminglanguage.com/statistics/
+   * it is been all the line and scatter but from the 5 point summary sake box plot actually summarizes the view nicely
