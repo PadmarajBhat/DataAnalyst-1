@@ -181,3 +181,5 @@
    * skewness 0.5 to 1 (+-) then it is moderately distributed
    * and within 0.5 is is symmetric 
 * number to string : "{:03d}".format(100)
+
+* ternary operation : var = true_val if condition else false_val
