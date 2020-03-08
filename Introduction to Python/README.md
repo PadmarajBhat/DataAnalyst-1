@@ -180,6 +180,8 @@
    * skewness is said to be stable if the range is -.5 to .5
    * skewness 0.5 to 1 (+-) then it is moderately distributed
    * and within 0.5 is is symmetric 
+   * it also to be known that negative sign indicates that the density is of the data points are the right or long tail at left
+   * similarly positive sign indicates density at the left or  long tails at right
 * number to string : "{:03d}".format(100)
 
 * ternary operation : var = true_val if condition else false_val
