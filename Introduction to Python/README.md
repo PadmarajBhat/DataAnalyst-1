@@ -185,3 +185,7 @@
 * ternary operation : var = true_val if condition else false_val
 * boxplot in matplotlib : https://pythonprogramminglanguage.com/statistics/
    * it is been all the line and scatter but from the 5 point summary sake box plot actually summarizes the view nicely
+
+* KDE: https://mathisonian.github.io/kde/
+   * how kernel density works to calculate the probability of the data points to a distribution
+   * what are their parameters   
