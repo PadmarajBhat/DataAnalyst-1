@@ -197,3 +197,4 @@
 * how to subtract time: datetime.datetime.now() - datetime.deltatime(days=4) : https://stackoverflow.com/a/20573492/8693106
 
 * and /or condition in Panda : https://stackoverflow.com/a/22591267/8693106 - df[(df.a ==1) & (df.b == 2)]
+* to get the week number from datetime: date.isocalendar()
