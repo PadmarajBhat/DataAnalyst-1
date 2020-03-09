@@ -191,3 +191,5 @@
 * KDE: https://mathisonian.github.io/kde/
    * how kernel density works to calculate the probability of the data points to a distribution
    * what are their parameters   
+
+* to search in series: "a" in series.tolist() or "a" in series.values() : https://stackoverflow.com/questions/21319929/how-to-determine-whether-a-pandas-column-contains-a-particular-value
