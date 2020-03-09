@@ -195,3 +195,5 @@
 * to search in series: "a" in series.tolist() or "a" in series.values() : https://stackoverflow.com/questions/21319929/how-to-determine-whether-a-pandas-column-contains-a-particular-value
 
 * how to subtract time: datetime.datetime.now() - datetime.deltatime(days=4) : https://stackoverflow.com/a/20573492/8693106
+
+* and /or condition in Panda : https://stackoverflow.com/a/22591267/8693106 - df[(df.a ==1) & (df.b == 2)]
