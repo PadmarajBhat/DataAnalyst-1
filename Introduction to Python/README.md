@@ -193,3 +193,5 @@
    * what are their parameters   
 
 * to search in series: "a" in series.tolist() or "a" in series.values() : https://stackoverflow.com/questions/21319929/how-to-determine-whether-a-pandas-column-contains-a-particular-value
+
+* how to subtract time: datetime.datetime.now() - datetime.deltatime(days=4) : https://stackoverflow.com/a/20573492/8693106
