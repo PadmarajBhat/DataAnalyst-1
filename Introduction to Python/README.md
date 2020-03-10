@@ -118,7 +118,9 @@
       https://docs.python.org/3/library/functools.html
       functools.reduce(function, iterable[, initializer])
       ```
-      
+     
+* interesting discuss on map and list comprehension: more towards list comprehension than map 
+   * https://stackoverflow.com/a/1247490/8693106
 * Decorator and meta classes are called as meta programming
    * beautiful line from a medium blog : https://medium.com/better-programming/meta-programming-in-python-7fb94c8c7152
       * Meta programming is an act of writing a code to manupulate the code !!!!
