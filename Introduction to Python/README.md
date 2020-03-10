@@ -203,3 +203,5 @@
 * and /or condition in Panda : https://stackoverflow.com/a/22591267/8693106 - df[(df.a ==1) & (df.b == 2)]
 * to get the week number from datetime: date.isocalendar()
 * **nonlocal** : to use the parent function variable where the current function definition present 
+* panda groupby can have grouper which can easily group datetime to month, quarter or 2 years group
+   * https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#dateoffset-objects
