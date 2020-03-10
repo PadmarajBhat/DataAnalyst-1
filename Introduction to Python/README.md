@@ -121,6 +121,8 @@
      
 * interesting discuss on map and list comprehension: more towards list comprehension than map 
    * https://stackoverflow.com/a/1247490/8693106
+   * it has to be clear that map is the winner over for loop when operation on indivisual items are not related to each other
+      * https://www.quora.com/What-is-the-use-of-the-map-function-in-Python
 * Decorator and meta classes are called as meta programming
    * beautiful line from a medium blog : https://medium.com/better-programming/meta-programming-in-python-7fb94c8c7152
       * Meta programming is an act of writing a code to manupulate the code !!!!
