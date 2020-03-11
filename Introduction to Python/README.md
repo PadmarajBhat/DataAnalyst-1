@@ -207,3 +207,6 @@
    * https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#dateoffset-objects
 
 * to search anywhere in panda : https://stackoverflow.com/a/24665721/8693106
+
+* pydrive to access gdrive : https://stackoverflow.com/a/40625642/8693106
+   * to search in a folder, folder id has to be given
