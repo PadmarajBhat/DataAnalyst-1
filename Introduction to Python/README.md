@@ -214,3 +214,4 @@
 * pydrive: GetContentFile - helps to download file
 * tried various ways of authentication but of no sucess
    * gauth.LoadCredentialsFile("credentials.json") dint work
+   * need to find something from : https://www.programcreek.com/python/example/93082/pydrive.auth.GoogleAuth
