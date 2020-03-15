@@ -215,3 +215,4 @@
 * tried various ways of authentication but of no sucess
    * gauth.LoadCredentialsFile("credentials.json") dint work
    * need to find something from : https://www.programcreek.com/python/example/93082/pydrive.auth.GoogleAuth
+   * also trying to see how pygsheet works at https://github.com/nithinmurali/pygsheets/blob/staging/pygsheets/authorization.py
