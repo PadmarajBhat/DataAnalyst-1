@@ -217,4 +217,5 @@
    * need to find something from : https://www.programcreek.com/python/example/93082/pydrive.auth.GoogleAuth
    * also trying to see how pygsheet works at https://github.com/nithinmurali/pygsheets/blob/staging/pygsheets/authorization.py
       * client_secret = kwargs.get('outh_file', client_secret) : I think this is key
+      * credentials = service_account.Credentials.from_service_account_file(service_account_file, scopes=scopes)
       
