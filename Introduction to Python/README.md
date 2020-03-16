@@ -118,6 +118,7 @@
       https://docs.python.org/3/library/functools.html
       functools.reduce(function, iterable[, initializer])
       ```
+     * a quick recap : https://towardsdatascience.com/top-3-python-functions-you-dont-know-about-probably-978f4be1e6d
      
 * interesting discuss on map and list comprehension: more towards list comprehension than map 
    * https://stackoverflow.com/a/1247490/8693106
