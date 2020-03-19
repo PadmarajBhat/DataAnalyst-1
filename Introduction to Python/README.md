@@ -220,3 +220,4 @@
       * client_secret = kwargs.get('outh_file', client_secret) : I think this is key
       * credentials = service_account.Credentials.from_service_account_file(service_account_file, scopes=scopes)
       
+* panda to list of dictionary : .to_dictionary("records")
