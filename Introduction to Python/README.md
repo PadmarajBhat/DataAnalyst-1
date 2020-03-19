@@ -221,3 +221,4 @@
       * credentials = service_account.Credentials.from_service_account_file(service_account_file, scopes=scopes)
       
 * panda to list of dictionary : .to_dictionary("records")
+* **column same hack**: I accidentally had same column names in a panda....One in the beginning and one at the end. I got rid of the first with df.iloc[:,1:]
