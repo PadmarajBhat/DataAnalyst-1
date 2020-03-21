@@ -226,4 +226,6 @@
 
 * Interesting Read: https://medium.com/swlh/making-data-trees-in-python-3a3ceb050cfd
    * https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/#Asterisks_in_list_literals: Use of *
+      * it can be used to put in all the items in both list or dictionary
+      * it is syntactical sugar to reduce the trivial code
 * reset_index : has drop= and when set with True removes the index column introduced due to merge or concatenation
