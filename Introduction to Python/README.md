@@ -225,3 +225,5 @@
 * **how to do multiple column update**: https://stackoverflow.com/questions/32603051/pandas-dataframe-how-to-update-multiple-columns-by-applying-a-function
 
 * Interesting Read: https://medium.com/swlh/making-data-trees-in-python-3a3ceb050cfd
+
+* reset_index : has drop= and when set with True removes the index column introduced due to merge or concatenation
