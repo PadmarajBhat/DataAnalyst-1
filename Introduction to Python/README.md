@@ -223,3 +223,5 @@
 * panda to list of dictionary : .to_dictionary("records")
 * **column same hack**: I accidentally had same column names in a panda....One in the beginning and one at the end. I got rid of the first with df.iloc[:,1:]
 * **how to do multiple column update**: https://stackoverflow.com/questions/32603051/pandas-dataframe-how-to-update-multiple-columns-by-applying-a-function
+
+* Interesting Read: https://medium.com/swlh/making-data-trees-in-python-3a3ceb050cfd
