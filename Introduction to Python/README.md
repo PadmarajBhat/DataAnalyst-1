@@ -233,3 +233,4 @@
 * panda range: sample of records of every year between 2 dates
    * should it have month and date consideration? Like first filter all the records by date and month and then group by year?
    * https://stackoverflow.com/questions/25864133/pandas-groupby-date-range dint help
+   * https://stackoverflow.com/questions/54776538/group-by-date-range-in-pandas-dataframe dint help
