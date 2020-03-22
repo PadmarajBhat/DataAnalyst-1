@@ -229,3 +229,6 @@
       * it can be used to put in all the items in both list or dictionary
       * it is syntactical sugar to reduce the trivial code
 * reset_index : has drop= and when set with True removes the index column introduced due to merge or concatenation
+
+* panda range: sample of records of every year between 2 dates
+   * should it have month and date consideration? Like first filter all the records by date and month and then group by year?
