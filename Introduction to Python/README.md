@@ -208,6 +208,8 @@
    * https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#dateoffset-objects
       * B : indicates the business day
          * if I say 5B then it would mean 5 days from the last date of the panda at current scope.
+      * D : indicates the calendar day
+         * if I say 5D then it would mean in that calender week 5 days from the **beginning** of the panda data at scope
 
 * to search anywhere in panda : https://stackoverflow.com/a/24665721/8693106
 
