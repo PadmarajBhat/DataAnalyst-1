@@ -233,6 +233,9 @@
    * https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/#Asterisks_in_list_literals: Use of *
       * it can be used to put in all the items in both list or dictionary
       * it is syntactical sugar to reduce the trivial code
+      * the difference between * and : operator
+         * "*" would all the elements in the current list
+         * ":" would add the current list as the element inside a list
 * reset_index : has drop= and when set with True removes the index column introduced due to merge or concatenation
 
 * panda range: sample of records of every year between 2 dates
