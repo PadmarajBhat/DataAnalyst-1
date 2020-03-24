@@ -253,3 +253,13 @@
 * compute business days between 2 dates :
    * https://stackoverflow.com/questions/3615375/count-number-of-days-between-dates-ignoring-weekends
    * https://stackoverflow.com/questions/54435328/numpy-typeerror-could-not-be-cast-from-dtypem8us-to-dtypem8d
+   ```
+   start_time = datetime.datetime(2020, 3, 18, 7, 9, 9, 453273)
+   end_time = datetime.datetime.now()
+
+   print(type(start_time), type(end_time))
+   print(np.busday_count(start_time.date(),end_time.date()))
+   Output:
+   <class 'datetime.datetime'> <class 'datetime.datetime'>
+   4
+   ```
