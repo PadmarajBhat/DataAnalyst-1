@@ -236,6 +236,12 @@
       * the difference between * and : operator
          * "*" would all the elements in the current list
          * ":" would add the current list as the element inside a list
+         * list of list vs list of elements
+         ```
+         a = [1,2,3,4,5]
+         print([*a[2:],[a[2:])
+         [3, 4, 5], [[3, 4, 5]]
+         ```
 * reset_index : has drop= and when set with True removes the index column introduced due to merge or concatenation
 
 * panda range: sample of records of every year between 2 dates
