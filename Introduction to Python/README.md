@@ -249,3 +249,7 @@
    * https://stackoverflow.com/questions/25864133/pandas-groupby-date-range dint help
    * https://stackoverflow.com/questions/54776538/group-by-date-range-in-pandas-dataframe dint help
    * https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/ no help
+   
+* compute business days between 2 dates :
+   * https://stackoverflow.com/questions/3615375/count-number-of-days-between-dates-ignoring-weekends
+   * https://stackoverflow.com/questions/54435328/numpy-typeerror-could-not-be-cast-from-dtypem8us-to-dtypem8d
