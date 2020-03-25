@@ -265,3 +265,4 @@
    ```
       * need to add 1 to include the border days
 * max column: https://stackoverflow.com/a/29919489/8693106
+* Panda does perform better to python function
