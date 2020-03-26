@@ -269,3 +269,4 @@
 * Numpy is faster than list
 
 * surprisingly, df[df.length == df.length.max()] took much less time when compared to df[df.index == df.length.idxmax]
+* df[df.length == 5]['weight'].tolist()[0] takes almost same time as that of df[df.length ==5]['weight'].iloc[0]
