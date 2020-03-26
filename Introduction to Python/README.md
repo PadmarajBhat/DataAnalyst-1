@@ -267,3 +267,5 @@
 * max column: https://stackoverflow.com/a/29919489/8693106
 * Panda does perform better to python function
 * Numpy is faster than list
+
+* surprisingly, df[df.length == df.length.max()] took much less time when compared to df[df.index == df.length.idxmax]
