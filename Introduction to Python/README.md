@@ -275,3 +275,4 @@
 * df.merge(df2,how='outer',on='length') : is the hacky way of knowing what are the exclusive elements in the each panda.
 * df.replace(0,1) : replaces all occurances of 0 with 1
 * df where is similar to df[query]
+* df.iloc is handy when columns has to be choosen through indices
