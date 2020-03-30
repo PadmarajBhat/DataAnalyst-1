@@ -278,4 +278,4 @@
 * df.iloc is handy when columns has to be choosen through indices
 
 * datetime returns "ValueError: day is out of range for month" on manual attempt to get the datetime obje
-   
+   * condition is when I try to compute datetime object from the elements and the resulting input to datetime function is non lear and date > 28 for the month of february   
