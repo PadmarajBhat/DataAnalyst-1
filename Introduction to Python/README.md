@@ -276,3 +276,6 @@
 * df.replace(0,1) : replaces all occurances of 0 with 1
 * df where is similar to df[query]
 * df.iloc is handy when columns has to be choosen through indices
+
+* datetime returns "ValueError: day is out of range for month" on manual attempt to get the datetime obje
+   
