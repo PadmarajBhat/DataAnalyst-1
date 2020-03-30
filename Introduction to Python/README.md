@@ -281,3 +281,4 @@
    * condition is when I try to compute datetime object from the elements and the resulting input to datetime function is non lear and date > 28 for the month of february   
    * https://docs.python.org/3/library/datetime.html has 52 weeks support but this results a day ahead of current day (in the last year
       * i.e. 3/30/2020 - 52 weeks = 4/1/2019
+* qrcode generation : pyqrcode
