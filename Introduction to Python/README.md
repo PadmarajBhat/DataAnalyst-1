@@ -285,3 +285,4 @@
 * tqdm works in both notebook and python command prompt
 * Mongodb returns "None" which of type "NoneType" when query fails
    * find_one  returns a dictionary
+      * can also take sort function as the parameter : to get the max or min
