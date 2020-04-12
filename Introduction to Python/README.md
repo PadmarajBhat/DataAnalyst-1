@@ -283,3 +283,4 @@
       * i.e. 3/30/2020 - 52 weeks = 4/1/2019
 * qrcode generation : pyqrcode
 * tqdm works in both notebook and python command prompt
+* Mongodb returns "None" which of type "NoneType" when query fails
