@@ -282,3 +282,4 @@
    * https://docs.python.org/3/library/datetime.html has 52 weeks support but this results a day ahead of current day (in the last year
       * i.e. 3/30/2020 - 52 weeks = 4/1/2019
 * qrcode generation : pyqrcode
+* tqdm works in both notebook and python command prompt
