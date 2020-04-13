@@ -288,3 +288,8 @@
       * can also take sort function as the parameter : to get the max or min
    * https://stackoverflow.com/questions/38762897/pymongo-unable-to-connect-to-primary
       * error : replica not found
+      
+* how to kill uwsgi ps
+   * https://serverfault.com/questions/565903/how-to-stop-uwsgi-when-no-pidfile-in-config
+      * ps ax
+      * killall -s INT  /home/LockdownPassUser1/.local/bin/uwsgi
