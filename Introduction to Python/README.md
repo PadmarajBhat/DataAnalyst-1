@@ -293,3 +293,4 @@
    * https://serverfault.com/questions/565903/how-to-stop-uwsgi-when-no-pidfile-in-config
       * ps ax
       * killall -s INT  /home/LockdownPassUser1/.local/bin/uwsgi
+* ubuntu command for disk info : https://askubuntu.com/questions/73160/how-do-i-find-the-amount-of-free-space-on-my-hard-drive
