@@ -286,3 +286,5 @@
 * Mongodb returns "None" which of type "NoneType" when query fails
    * find_one  returns a dictionary
       * can also take sort function as the parameter : to get the max or min
+   * https://stackoverflow.com/questions/38762897/pymongo-unable-to-connect-to-primary
+      * error : replica not found
