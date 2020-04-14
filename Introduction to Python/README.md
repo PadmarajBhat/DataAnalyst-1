@@ -288,6 +288,7 @@
       * can also take sort function as the parameter : to get the max or min
    * https://stackoverflow.com/questions/38762897/pymongo-unable-to-connect-to-primary
       * error : replica not found
+   * also facing server selection timeout : https://jira.mongodb.org/browse/PYTHON-1054
       
 * how to kill uwsgi ps
    * https://serverfault.com/questions/565903/how-to-stop-uwsgi-when-no-pidfile-in-config
