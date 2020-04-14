@@ -296,3 +296,4 @@
       * killall -s INT  /home/LockdownPassUser1/.local/bin/uwsgi
 * ubuntu command for disk info : https://askubuntu.com/questions/73160/how-do-i-find-the-amount-of-free-space-on-my-hard-drive
 * solution for blocksize error at uwsgi: https://stackoverflow.com/questions/15878176/uwsgi-invalid-request-block-size
+* closing the mongo client : https://stackoverflow.com/questions/18401015/how-to-close-a-mongodb-python-connection
