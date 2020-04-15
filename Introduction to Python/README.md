@@ -292,7 +292,7 @@
       * https://stackoverflow.com/questions/54064725/serverselectiontimeouterror-pymongo
 * mongo: collection.delete_one for deleting a record
    * delete_many : with regex can be handy too
-      
+   * col.create_index("an_index") : but does not work in azure shell
 * how to kill uwsgi ps
    * https://serverfault.com/questions/565903/how-to-stop-uwsgi-when-no-pidfile-in-config
       * ps ax
