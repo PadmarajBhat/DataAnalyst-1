@@ -297,6 +297,9 @@
 * mongo datetime is always utc
    * saving datetime.datetime.now() from python will mislead the user
       * datetime.datetime.utcnow() for clarity
+* to count number of docs in mongo
+   * https://docs.mongodb.com/manual/reference/method/db.collection.countDocuments/
+      
 * how to kill uwsgi ps
    * https://serverfault.com/questions/565903/how-to-stop-uwsgi-when-no-pidfile-in-config
       * ps ax
