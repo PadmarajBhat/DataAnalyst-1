@@ -294,6 +294,7 @@
    * delete_many : with regex can be handy too
       * 16500 , is "Too Many Requests.": at Azure cosmosDB 
    * col.create_index("an_index") : but does not work in azure shell
+* mongo datetime is always utc
 * how to kill uwsgi ps
    * https://serverfault.com/questions/565903/how-to-stop-uwsgi-when-no-pidfile-in-config
       * ps ax
