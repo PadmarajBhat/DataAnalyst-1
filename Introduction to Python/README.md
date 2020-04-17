@@ -23,7 +23,7 @@
    Output: ((2,), (1, 2), (1, 2))
    ```
 * pandas to xls file through xlswriter : https://xlsxwriter.readthedocs.io/example_pandas_chart_stock.html
-
+* when a flask service responds a image url, get for the same is auto handled.
 * datetime function in panda
    * df['time'] = pd.to_datetime(df.time)
    * df.time.dt.day --> lists only day, can be used in groupby
