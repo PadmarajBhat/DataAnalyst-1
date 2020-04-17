@@ -311,3 +311,4 @@
 * JS equivalent to Python Image: https://www.reddit.com/r/learnjavascript/comments/3tcjkg/is_there_a_javascript_equivalent_to_the_python/
 
 os.path.isfile: does not take url and validates it
+   * similarly, for image open and urllib open  
