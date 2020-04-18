@@ -314,4 +314,4 @@ os.path.isfile: does not take url and validates it
    * similarly, for image open and urllib open  
    * for file check you can try to establish a http connection and check if response is 200
       * https://stackoverflow.com/a/2486412/8693106
-Kloq
+Klo
