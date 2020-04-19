@@ -316,3 +316,4 @@ os.path.isfile: does not take url and validates it
       * https://stackoverflow.com/a/2486412/8693106
 There is a way to append string with with tuple likesyntax
 * String + (str1[:5]+'...')
+How do we make a dynamic rule engine?
