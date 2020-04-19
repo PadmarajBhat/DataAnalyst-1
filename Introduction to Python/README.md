@@ -315,3 +315,4 @@ os.path.isfile: does not take url and validates it
    * for file check you can try to establish a http connection and check if response is 200
       * https://stackoverflow.com/a/2486412/8693106
 There is a way to append string with with tuple likesyntax
+* String + (str1[:5]+'...')
