@@ -318,4 +318,4 @@ There is a way to append string with with tuple likesyntax
 * String + (str1[:5]+'...')
 How do we make a dynamic rule engine?
 * Is it like asking for machine learning or fixed variable but dynamic value
-* Kl
+* Klo
