@@ -320,3 +320,4 @@ How do we make a dynamic rule engine?
 * Is it like asking for machine learning or fixed variable but dynamic value
 
 * Nice article on flask + HTTPS: https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
+* https://stackoverflow.com/questions/18964175/how-to-fix-curl-60-ssl-certificate-invalid-certificate-chain: curl command to suppress the 
