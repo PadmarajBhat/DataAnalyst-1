@@ -321,4 +321,5 @@ How do we make a dynamic rule engine?
 
 * Nice article on flask + HTTPS: https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
    * ssl_context='adhoc' is all you need
+      * pyopenssl for assistence
 * https://stackoverflow.com/questions/18964175/how-to-fix-curl-60-ssl-certificate-invalid-certificate-chain: curl command to suppress the 
