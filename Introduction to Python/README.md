@@ -319,4 +319,4 @@ There is a way to append string with with tuple likesyntax
 How do we make a dynamic rule engine?
 * Is it like asking for machine learning or fixed variable but dynamic value
 
-* Klo2
+* Nice article on flask + HTTPS: https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
