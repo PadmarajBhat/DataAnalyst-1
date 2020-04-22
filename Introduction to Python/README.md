@@ -323,4 +323,4 @@ How do we make a dynamic rule engine?
    * ssl_context='adhoc' is all you need
       * pyopenssl for assistence
 * https://stackoverflow.com/questions/18964175/how-to-fix-curl-60-ssl-certificate-invalid-certificate-chain: curl command to suppress the 
-k
+kl
