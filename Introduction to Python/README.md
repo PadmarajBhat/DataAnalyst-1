@@ -322,5 +322,8 @@ How do we make a dynamic rule engine?
 * Nice article on flask + HTTPS: https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
    * ssl_context='adhoc' is all you need
       * pyopenssl for assistence
+   * openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365
+      * the key generated from the above command is used for generating SSL certificate
+      
 * https://stackoverflow.com/questions/18964175/how-to-fix-curl-60-ssl-certificate-invalid-certificate-chain: curl command to suppress the open ssl warning
 * flask app static folder is relative to the location from where the app.py is run
