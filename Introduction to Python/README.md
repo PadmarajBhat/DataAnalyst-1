@@ -294,6 +294,8 @@
    * delete_many : with regex can be handy too
       * 16500 , is "Too Many Requests.": at Azure cosmosDB 
    * col.create_index("an_index") : but does not work in azure shell
+
+* azure has option to create SHARD Key during collection creation. This fixed sorting issue on the key which has no indexing.
 * mongo datetime is always utc
    * saving datetime.datetime.now() from python will mislead the user
       * datetime.datetime.utcnow() for clarity
